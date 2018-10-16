@@ -1,4 +1,3 @@
-
 def calc_add(a,b):
         return a+b
 def calc_sub(a,b):
@@ -12,13 +11,11 @@ def calc_multi(a,b):
 def calc_square(a,b):
         return a**b
 
-print("1 = addition \n 2 = subtraction \n 3 = float division \n"
-      "4 = intiger division \n 5 = multiply \n 6 = square")
+print("1 = addition \n 2 = subtraction \n 3 = float division \n 4 = intiger division \n 5 = multiply \n 6 = square")
 
 choice=int(input("enter your choice="))
 a=int(input("enter a number"))
 b=int(input("enter a number"))
-
 
 if(choice==1):
     print("the addition of",a,"and",b,"=",calc_add(a,b,c))

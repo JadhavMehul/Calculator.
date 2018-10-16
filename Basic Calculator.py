@@ -18,7 +18,7 @@ a=int(input("enter a number"))
 b=int(input("enter a number"))
 
 if(choice==1):
-    print("the addition of",a,"and",b,"=",calc_add(a,b,c))
+    print("the addition of",a,"and",b,"=",calc_add(a,b,)
 
 elif(choice==2):
     print("the addition of",a,"and",b,"=",calc_sub(a,b))

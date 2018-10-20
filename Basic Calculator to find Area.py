@@ -41,7 +41,7 @@ elif(c==3):
     print("area of square =",calc_area_square())
 
 elif(c==4):
-    print("area of square =",calc_area_triangle())
+    print("area of triangle =",calc_area_triangle())
 
 else:
     print("sorry you selected a choice which is not mention")

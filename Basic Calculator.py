@@ -1,15 +1,22 @@
-def calc_add(a,b):
-        return a+b
-def calc_sub(a,b):
-        return a-b
-def calc_float_div(a,b):
-        return a/b
-def calc_int_div(a,b):
-        return a//b
-def calc_multi(a,b):
-        return a*b
-def calc_square(a,b):
-        return a**b
+#basic calculator program in idle python 
+
+def calc_add(a,b): #function to calculate addition
+        return a+b #formula of addition
+
+def calc_sub(a,b): #function to calculate subtraction
+        return a-b #formula of subtraction
+
+def calc_float_div(a,b): #function to calculate float division i.e if number is 2 then output is 2.0
+        return a/b #formula of float division
+
+def calc_int_div(a,b): #function to calculate integer division i.e if number is 2.0 then output is 2
+        return a//b #formula of int division
+
+def calc_multi(a,b): #function to calculate multiplication
+        return a*b #formula of multilication
+
+def calc_square(a,b): #function to calculate to do square
+        return a**b #formula of square
 
 print("1 = addition \n 2 = subtraction \n 3 = float division \n 4 = intiger division \n 5 = multiply \n 6 = square")
 

@@ -25,22 +25,22 @@ a=int(input("enter a number"))
 b=int(input("enter a number"))
 
 if(choice==1):
-    print("the addition of",a,"and",b,"=",calc_add(a,b,)
+    print("the addition of",a,"and",b,"=",calc_add(a,b))
 
 elif(choice==2):
-    print("the addition of",a,"and",b,"=",calc_sub(a,b))
+    print("the subtraction of",a,"and",b,"=",calc_sub(a,b))
 
 elif(choice==3):
-    print("the addition of",a,"and",b,"=",calc_float_div(a,b))
+    print("the float division of",a,"and",b,"=",calc_float_div(a,b))
 
 elif(choice==4):
-    print("the addition of",a,"and",b,"=",calc_int_div(a,b))
+    print("the integer division of",a,"and",b,"=",calc_int_div(a,b))
 
 elif(choice==5):
-    print("the addition of",a,"and",b,"=",calc_multi(a,b))
+    print("the multiplication of",a,"and",b,"=",calc_multi(a,b))
 
 elif(choice==6):
-    print("the addition of",a,"and",b,"=",calc_square(a,b))
+    print(a,"to the power",b,"=",calc_square(a,b))
 
 else:
     print("sorry you selected a choice which is not mention")

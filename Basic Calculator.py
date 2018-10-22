@@ -23,7 +23,8 @@ while True:
               "2 = subtraction \n"
               "3 = float division \n"
               "4 = intiger division \n"
-              "5 = multiply \n 6 = square")
+              "5 = multiply \n"
+              "6 = square")
         choice=int(input("enter your choice="))
         a=int(input("enter a number"))
         b=int(input("enter a number"))

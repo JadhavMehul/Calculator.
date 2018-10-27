@@ -29,18 +29,18 @@ while True:
           "2 = area of rectangle \n"
           "3 = area of square \n"
           "4 = area of triangle")#output
-    c=int(input("enter your choice="))#user input c=choice
+    choice=int(input("enter your choice="))#user input c=choice
 
-    if(c==1):
+    if(choice==1):
         print("area of circle =",calc_area_circle(),"\n")
 
-    elif(c==2):
+    elif(choice==2):
         print("area of rectangle =",calc_area_rectangle(),"\n")
 
-    elif(c==3):
+    elif(choice==3):
         print("area of square =",calc_area_square(),"\n")
 
-    elif(c==4):
+    elif(choice==4):
         print("area of triangle =",calc_area_triangle(),"\n")
 
     elif(a==0): break

@@ -19,7 +19,9 @@ def calc_square(a,b): #function to calculate to do square
         return a**b #formula of square
 
 while True:
-        print("1 = addition \n"
+        print("select your choice \n"
+              "0 = to quit program"
+              "1 = addition \n"
               "2 = subtraction \n"
               "3 = float division \n"
               "4 = intiger division \n"

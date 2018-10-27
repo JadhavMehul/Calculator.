@@ -6,7 +6,3 @@ My main motive to create this reprosetry is to provide source code of my project
 Basically it is opensource.
 
 Hi!!!,all of you thanks to view my projects.
-As you all know i'm a kind of software developer who keep on inventing new syntax.
-If you want to be a best software developer like me please follow me and make sure you view my projects every day.
-If you will follow all the instruction which are mention above I assure you that you will become a best software developer like me at
-some day and that day is not far.

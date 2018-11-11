@@ -45,7 +45,7 @@ while True:
         print("area of triangle =",calc_area_triangle(),"\n")
 
     elif(c==5):
-        import direct
+        import _direct
 
     elif(a==0): break
 

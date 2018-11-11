@@ -25,26 +25,29 @@ def calc_area_triangle():#function to calculate area of triangle
 
 while True:
     print("select your choice \n"
-          "0 = to exit program \n"
           "1 = area of circle \n"
           "2 = area of rectangle \n"
           "3 = area of square \n"
-          "4 = area of triangle")#output
-    choice=int(input("enter your choice="))#user input c=choice
+          "4 = area of triangle \n"
+          "5 = to change your calculator")#output
+    c=int(input("enter your choice="))#user input c=choice
 
-    if(choice==1):
+    if(c==1):
         print("area of circle =",calc_area_circle(),"\n")
 
-    elif(choice==2):
+    elif(c==2):
         print("area of rectangle =",calc_area_rectangle(),"\n")
 
-    elif(choice==3):
+    elif(c==3):
         print("area of square =",calc_area_square(),"\n")
 
-    elif(choice==4):
+    elif(c==4):
         print("area of triangle =",calc_area_triangle(),"\n")
 
-    elif(choice==0): break
+    elif(c==5):
+        import aa
+
+    elif(a==0): break
 
     else:
         print("sorry you selected a choice which is not mention")

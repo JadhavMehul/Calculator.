@@ -59,7 +59,7 @@ while True:
         print("the square of above number is =",calc_square())
 
     elif(choice==7):
-        import direct
+        import _direct
 
     elif(choice==0): break
 

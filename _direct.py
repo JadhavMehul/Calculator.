@@ -17,4 +17,4 @@ elif(choice==3):
     import Factorial
 
 else:
-    print("xyz")
+    print("sorry, invalid choice")

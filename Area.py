@@ -1,7 +1,7 @@
 #python program to calculate area
 
 def calc_area_circle():#function to calculate area of circle
-    pie=3.14
+    pie=3.14 #this is value of pi
     radius=int(input("enter value of radius="))#user input value of radius
     formula=pie*(radius*radius)#formula to calculate area of circle
     return formula
